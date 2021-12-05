@@ -11,20 +11,126 @@
 </head>
 <body>
     <!-- HEADER -->
-    <header>
-        <nav class="nav"> 
+    <header class="header">
+        <nav class="nav container"> 
+            <a href="#" class="nav__logo">AirPods</a>
 
+            <div class="nav__menu" id="nav-menu">
+                <ul>
+                    <li class="nav__item"><a href="#" class="nav__link">Description</a></li>
+                    <li class="nav__item"><a href="#details" class="nav__link">Features</a></li>
+                </ul>
+            </div>
+
+            <div class="nav__action">
+                <div class="nav__toggle" id="nav-toggle">
+                        <i class="bx bx-menu"></i>
+                </div>
+                <a href="#" class="nav_btn">Compare</a>
+            </div>
         </nav> 
     </header>
 
     <!-- MAIN CONTENT -->
-    <main> 
-        
+    <main class="container">
+        <section class="subNav">
+            <nav>
+                <ul class="subNav__list">
+                    <li class="subNav__item">
+                        <img src="assets/img/icon1.svg" alt="">
+                        <span class="subNav__text">AirPods <br> 2</span>
+                    </li>
+                    <li class="subNav__item">
+                        <img src="assets/img/icon3.svg" alt="">
+                        <span class="subNav__text">AirPods <br> Pro</span>
+                    </li>
+                    <li class="subNav__item">
+                        <img src="assets/img/icon4.svg" alt="">
+                        <span class="subNav__text">AirPods <br> Max</span>
+                    </li>
+                    <li class="subNav__item">
+                        <img src="assets/img/icon6.svg" alt="">
+                        <span class="subNav__text">Apple <br> Musix</span>
+                    </li>
+                </ul>
+            </nav>
+        </section>
+
+        <section class="home">
+            <div class="home__data">
+                <h1 class="home__tittle">AirPods</h1>
+                <p class="home__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus praesentium aliquam debitis ducimus totam quidem quasi explicabo nisi provident. Suscipit quas, possimus porro adipisci consequatur aliquam delectus natus.</p>
+            </div>
+
+            <div class="home__img">
+                <img src="assets/img/airpod1.png" alt="" class="airpod1">
+                <img src="assets/img/airpod2.png" alt="" class="airpod2">
+            </div>
+
+            <div class="home__scroll">
+                <span class="home_scroll-text">
+                    Scroll Down For More
+                </span>
+                <a href="#details">
+                    <i class="bx bx-mouse bx-md"></i>
+                </a>
+            </div>
+        </section>
+
+        <section id="details">
+            <div class="details">
+                <div class="details__contentt">
+                    <div class="details__box">
+                        <span class="details__initial">More Than</span>
+                        <h3 class="details__tittle">24<span>h</span></h3>
+                        <div class="details__description">of battery life <br> with charging case</div>
+                    </div>
+
+                    <div class="details__box">
+                        <span class="details__initial">More Than</span>
+                        <h3 class="details__tittle">24<span>h</span></h3>
+                        <div class="details__description">of battery life <br> with charging case</div>
+                    </div>
+
+                    <div class="details__box">
+                        <span class="details__initial">More Than</span>
+                        <h3 class="details__tittle">24<span>h</span></h3>
+                        <div class="details__description">of battery life <br> with charging case</div>
+                    </div>
+                </div>
+
+                <div class="details__img">
+                    <img src="assets/img/airpods.png" alt="" class="airpod">
+                </div>
+            </div>
+        </section>
     </main>
 
     <!-- FOOTER -->
-    <footer id="footer"> 
-
+    <footer id="footer" class="footer"> 
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing.</p>
+        <ul>
+            <li>
+                <a href="#" target="_blank">
+                    <i class="bx bxl-youtube"></i>
+                </a> 
+            </li>
+            <li>
+                <a href="#" target="_blank">
+                    <i class="bx bxl-instagram"></i>
+                </a>       
+            </li>
+            <li>
+                <a href="#" target="_blank">
+                    <i class="bx bxl-twitter"></i>
+                </a>      
+            </li>
+            <li>
+                <a href="#" target="_blank">
+                    <i class="bx bxl-linkedin"></i>
+                </a> 
+            </li>
+        </ul>
     </footer>
 
     <!-- MAIN JS -->
